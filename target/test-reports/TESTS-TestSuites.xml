@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="WorkstationPC" id="0" name="UserControllerTests" package="racetrack" tests="10" time="3.936" timestamp="2012-08-08T12:01:24">
+      <properties />
+
+      <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="2.79" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testAuthenticateBadUser" time="0.129" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.081" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testList" time="0.139" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testCreate" time="0.098" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testSave" time="0.235" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testShow" time="0.116" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testEdit" time="0.069" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testUpdate" time="0.126">
+          <failure message="Assertion failed: &#xa;&#xa;assert view == &apos;/user/edit&apos;&#xa;       |    |&#xa;       null false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert view == &apos;/user/edit&apos;
+       |    |
+       null false
+
+	at racetrack.UserControllerTests.testUpdate(UserControllerTests.groovy:151)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.UserControllerTests" name="testDelete" time="0.081" />
+
+      <system-out><![CDATA[--Output from testAuthenticate--
+--Output from testAuthenticateBadUser--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testAuthenticate--
+--Output from testAuthenticateBadUser--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
